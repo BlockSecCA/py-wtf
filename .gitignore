@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary/Process Documentation
+ALL_FIXED.md
+FIXED.md
+FIXED_SPACING.md
+TEST_SMOOTH.md
+UPDATE_NOTES.md
+SETUP_COMPLETE.txt
+YOU_ARE_DONE.md
+README_FIRST.md
+CLEANUP_PLAN.md
+DOC_AUDIT.md
+FINAL_STATUS.md
+cleanup_docs.sh
+docs_archive/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
