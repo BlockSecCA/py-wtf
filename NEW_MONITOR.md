@@ -14,7 +14,7 @@ Shows:
 ## Try It Now!
 
 ```bash
-cd ~/code/py-wtf
+cd py-wtf
 source venv/bin/activate
 python monitors/claude_status.py
 ```
@@ -89,9 +89,9 @@ Create a monitoring dashboard:
 tmux new -s claude-monitor
 tmux split-window -h
 tmux select-pane -t 0
-tmux send-keys 'cd ~/code/py-wtf && source venv/bin/activate && python monitors/system.py' C-m
+tmux send-keys 'cd py-wtf && source venv/bin/activate && python monitors/system.py' C-m
 tmux select-pane -t 1
-tmux send-keys 'cd ~/code/py-wtf && source venv/bin/activate && python monitors/claude_status.py' C-m
+tmux send-keys 'cd py-wtf && source venv/bin/activate && python monitors/claude_status.py' C-m
 tmux attach
 ```
 

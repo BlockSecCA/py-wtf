@@ -38,7 +38,7 @@ if key == curses.KEY_RESIZE:
 ### Try the Resize Demo:
 
 ```bash
-cd ~/code/py-wtf
+cd py-wtf
 source venv/bin/activate
 python monitors/resize_demo.py
 ```
@@ -104,7 +104,7 @@ if row >= curses.LINES - 1:
 
 ```bash
 # Make resize support the default
-cd ~/code/py-wtf/monitors/lib
+cd py-wtf/monitors/lib
 cp monitor.py monitor_no_resize.py
 cp monitor_resize.py monitor.py
 ```

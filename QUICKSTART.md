@@ -3,13 +3,13 @@
 ## First Time Setup
 
 ```bash
-cd ~/code/py-wtf
+cd py-wtf
 source venv/bin/activate
 ```
 
 Or use the helper:
 ```bash
-cd ~/code/py-wtf
+cd py-wtf
 source activate.sh
 ```
 
@@ -154,7 +154,7 @@ python monitors/system_smooth.py
 To make curses the default:
 
 ```bash
-cd ~/code/py-wtf/monitors/lib
+cd py-wtf/monitors/lib
 cp monitor.py monitor_ansi.py      # Backup old version
 cp monitor_curses.py monitor.py    # Use curses as default
 ```

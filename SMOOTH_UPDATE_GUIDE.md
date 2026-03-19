@@ -184,7 +184,7 @@ It's how WTF achieves smooth updates, and it's the proper way to do TUI in Pytho
 Update `monitors/lib/monitor.py` to be the curses version:
 
 ```bash
-cd ~/code/py-wtf/monitors/lib
+cd py-wtf/monitors/lib
 cp monitor.py monitor_ansi.py     # Backup
 cp monitor_curses.py monitor.py   # Make curses default
 ```

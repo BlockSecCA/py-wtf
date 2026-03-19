@@ -7,7 +7,7 @@ When you SSH from Windows Terminal to Ubuntu, sometimes `TERM` is set to `dumb`,
 ## Quick Fix - Use The Helper Script
 
 ```bash
-cd ~/code/py-wtf
+cd py-wtf
 ./run.sh monitors/system.py
 ```
 
@@ -32,7 +32,7 @@ Should show `xterm-256color` (not `dumb`).
 
 Then monitors work normally:
 ```bash
-cd ~/code/py-wtf
+cd py-wtf
 source venv/bin/activate
 python monitors/system.py
 ```
@@ -74,7 +74,7 @@ Or edit `settings.json`:
 export TERM=xterm-256color
 
 # Run monitor
-cd ~/code/py-wtf
+cd py-wtf
 source venv/bin/activate
 python monitors/system.py
 ```

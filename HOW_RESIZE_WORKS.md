@@ -184,7 +184,7 @@ while True:
 ### Demo 1: See SIGWINCH in Action
 
 ```bash
-cd ~/code/py-wtf
+cd py-wtf
 python sigwinch_demo.py
 ```
 

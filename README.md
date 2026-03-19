@@ -17,7 +17,7 @@ A lightweight, extensible terminal monitoring framework inspired by [WTF Termina
 
 ```bash
 # Clone and setup
-git clone <this-repo>
+git clone https://github.com/BlockSecCA/py-wtf.git
 cd py-wtf
 python3 -m venv venv
 source venv/bin/activate
